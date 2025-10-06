@@ -2,7 +2,7 @@ from unittest import mock
 
 import pytest
 
-from presidio_anonymizer.operators import Encrypt, AESCipher
+from presidio_anonymizer.operators import Encrypt, AESCipher, OperatorType
 from presidio_anonymizer.entities import InvalidParamError
 
 
@@ -46,11 +46,33 @@ def test_given_verifying_an_invalid_length_key_then_ipe_raised():
     ):
         Encrypt().validate(params={"key": "key"})
 
-@mock.patch.object(AESCipher, "encrypt") # hint: replace encrypt with the method that you want to mock
-def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_encrypt): # hint: replace mock_encrypt with a proper name for your mocker
-    # Here: add setup for mocking
+def test_operator_name():
+	result = Encrypt().operator_name()
+	assert result == "encrypt"
+
+def test_operator_type():
+	result = Encrypt().operator_type()
+	assert result == OperatorType.Anonymize
+
+@mock.patch.object(AESCipher, "is_valid_key_size")
+def test_given_verifying_an_invalid_length_bytes_key_then_ipe_raised(mock_is_valid_key_size):
+    mock_is_valid_key_size.return_value = False
     with pytest.raises(
         InvalidParamError,
         match="Invalid input, key must be of length 128, 192 or 256 bits",
     ):
         Encrypt().validate(params={"key": b'1111111111111111'})
+
+@pytest.mark.parametrize(
+    "key",
+    [
+         "128bitslengthkey",
+         "____192bitslengthkey____",
+         "________256bitslengthkey________",
+         b'1111111111111111',
+         b'111111111111111111111111',
+         b'11111111111111111111111111111111',
+    ],
+    )
+def test_valid_keys(key):
+    result = Encrypt().validate(params={"key": key})
