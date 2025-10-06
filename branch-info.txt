@@ -16,9 +16,11 @@ Branches in this repo (with details):
     8680129 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-05T19:37:03Z | Auto-update branch-info.txt
     81e94ac | Author: Saad A. <150076462+swahmad2005@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-05T15:36:53-04:00 | Initial commit
 - main
-  SHA: 2459b87991bd184c9edd571b57ba44af10e3e077
-  Commits: 3
+  SHA: 8ac2a5d37401959076c88306f39aed0f13b3f3ae
+  Commits: 6
   Recent commits:
+    8ac2a5d | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-06T20:00:42Z | Merge branch 'lab7'
+    0061825 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T19:50:51Z | Auto-update branch-info.txt
+    591f601 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-06T19:49:25Z | Finished lab 7
     2459b87 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-05T19:37:40Z | Auto-update branch-info.txt
     8680129 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-05T19:37:03Z | Auto-update branch-info.txt
-    81e94ac | Author: Saad A. <150076462+swahmad2005@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-05T15:36:53-04:00 | Initial commit
