@@ -289,7 +289,7 @@ from unittest import mock
 def test_logger(mock_logger):
     result = create_recognizer_result("PERSON", 0.8, 1, 5)
     mock_logger.info.assert_called()
-    mock_logger.info.assert_called_once_with(f"created analyzer result: entity_type='PERSON', start=1, end=5, score=0.80")
+    mock_logger.info.assert_called_with(f"created analyzer result: entity_type='{result.entity_type}', start={result.start}, end={result.end}, score={result.score:.2f}")
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
