@@ -16,11 +16,11 @@ Branches in this repo (with details):
     8680129 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-05T19:37:03Z | Auto-update branch-info.txt
     81e94ac | Author: Saad A. <150076462+swahmad2005@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-05T15:36:53-04:00 | Initial commit
 - main
-  SHA: 382a586ee70b0628f9158643db860545ebaeefdb
-  Commits: 9
+  SHA: 4945a8b814d5f7b88bb0ffd23ee747214d8a95c1
+  Commits: 12
   Recent commits:
+    4945a8b | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:32Z | Merge branch 'lab7'
+    9f979f5 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:26Z | Fixes (2nd)
+    3550349 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T02:47:30Z | Auto-update branch-info.txt
     382a586 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T02:46:33Z | Merge branch 'lab7'
     1e70c60 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T02:45:46Z | Fixes
-    0a685ac | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T20:01:34Z | Auto-update branch-info.txt
-    8ac2a5d | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-06T20:00:42Z | Merge branch 'lab7'
-    0061825 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-06T19:50:51Z | Auto-update branch-info.txt
