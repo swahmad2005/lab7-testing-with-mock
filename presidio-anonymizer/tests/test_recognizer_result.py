@@ -288,8 +288,8 @@ from unittest import mock
 @mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
     result = create_recognizer_result("PERSON", 0.8, 1, 5)
-    result.logger.info.assert_called()
-    result.logger.info.assert_called_once_with(f"created analyzer result: entity_type='PERSON', start=1, end=5, score=0.80")
+    mock_logger.info.assert_called()
+    mock_logger.info.assert_called_once_with(f"created analyzer result: entity_type='PERSON', start=1, end=5, score=0.80")
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
