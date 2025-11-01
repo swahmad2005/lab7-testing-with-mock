@@ -1,5 +1,14 @@
 Branches in this repo (with details):
 
+- dependabot/docker/presidio-anonymizer/python-3.14-windowsservercore
+  SHA: 17cb7bc5e7e62eacf8759700c66dd378903b6e25
+  Commits: 14
+  Recent commits:
+    17cb7bc | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-01T04:18:04Z | Bump python in /presidio-anonymizer
+    5eb73c2 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T03:19:45Z | Auto-update branch-info.txt
+    4945a8b | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:32Z | Merge branch 'lab7'
+    9f979f5 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:26Z | Fixes (2nd)
+    3550349 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T02:47:30Z | Auto-update branch-info.txt
 - dependabot/github_actions/actions/checkout-5
   SHA: b5d957f69d38682cac9ccdea55c216db7ea95449
   Commits: 3
@@ -16,11 +25,11 @@ Branches in this repo (with details):
     8680129 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-05T19:37:03Z | Auto-update branch-info.txt
     81e94ac | Author: Saad A. <150076462+swahmad2005@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-05T15:36:53-04:00 | Initial commit
 - main
-  SHA: 4945a8b814d5f7b88bb0ffd23ee747214d8a95c1
-  Commits: 12
+  SHA: 5eb73c2bce7fb6cd445d094d3330d04b06e188a4
+  Commits: 13
   Recent commits:
+    5eb73c2 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T03:19:45Z | Auto-update branch-info.txt
     4945a8b | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:32Z | Merge branch 'lab7'
     9f979f5 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T03:19:26Z | Fixes (2nd)
     3550349 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-07T02:47:30Z | Auto-update branch-info.txt
     382a586 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T02:46:33Z | Merge branch 'lab7'
-    1e70c60 | Author: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Committer: Saad Ahmad <150076462+swahmad2005@users.noreply.github.com> | Date: 2025-10-07T02:45:46Z | Fixes
